@@ -13,7 +13,7 @@ RELEASE="$(rpm -E %fedora)"
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this install extra packages to monitor hardware performance and @virtualization packages
-rpm-ostree install tmux btop iotop sysstat libvirt-daemon-config-network libvirt-daemon-kvm qemu-kvm virt-manager virt-viewer virt-top
+rpm-ostree install tmux htop btop iotop libvirt-daemon-config-network libvirt-daemon-kvm qemu-kvm virt-manager virt-viewer virt-top
 
 #### Example for enabling a System Unit File
 systemctl enable libvirtd.service
