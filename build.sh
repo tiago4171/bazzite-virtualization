@@ -14,20 +14,19 @@ RELEASE="$(rpm -E %fedora)"
 
 # this install extra packages to monitor hardware performance and @virtualization packages
 rpm-ostree install \ 
-tmux \
-htop \
-btop \
-iotop \
-libvirt-daemon-config-network \
-libvirt-daemon-kvm \
-qemu-kvm \
-virt-manager \
-virt-viewer \
-virt-top && \
-
+  tmux \
+  htop \
+  btop \
+  iotop \
+  libvirt-daemon-config-network \
+  libvirt-daemon-kvm \
+  qemu-kvm \
+  virt-manager \
+  virt-viewer \
+  virt-top && \
 # Compositor and extras
 rpm-ostree install \
-picom && \
+  picom && \
 
 
 #### Example for enabling a System Unit File
