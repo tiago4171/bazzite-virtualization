@@ -26,7 +26,10 @@ rpm-ostree install \
   virt-top && \
 # Compositor and extras
 rpm-ostree install \
-  picom && \
+  picom \
+  papirus-icon-theme \
+  gtk-murrine-engine && \
+  
 
 
 #### Example for enabling a System Unit File
