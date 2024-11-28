@@ -28,6 +28,8 @@ rpm-ostree install \
 rpm-ostree install \
   picom \
   papirus-icon-theme \
+  sassc \
+  adw-gtk3-theme \
   gtk-murrine-engine && \
   
 
