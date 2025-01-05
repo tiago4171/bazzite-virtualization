@@ -24,15 +24,5 @@ rpm-ostree install \
   virt-manager \
   virt-viewer \
   virt-top && \
-# Compositor and extras
-rpm-ostree install \
-  picom \
-  papirus-icon-theme \
-  sassc \
-  adw-gtk3-theme \
-  gtk-murrine-engine && \
-  
-
-
 #### Example for enabling a System Unit File
 systemctl enable libvirtd.service
